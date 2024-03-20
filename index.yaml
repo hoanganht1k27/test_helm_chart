@@ -1,0 +1,27 @@
+apiVersion: v1
+entries:
+  functions:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-03-20T15:25:52.072431998+07:00"
+    dependencies:
+    - condition: global.grafana.enabled
+      name: grafana
+      repository: ""
+      version: 0.1.0
+    - condition: global.influxdb.enabled
+      name: influxdb
+      repository: ""
+      version: 0.1.0
+    - condition: global.elasticsearch.enabled
+      name: elasticsearch
+      repository: ""
+      version: 0.1.0
+    description: A Helm chart for Kubernetes
+    digest: 1f6877ba4f7963f66834657ee94069771549e1bd6a57b2105861430e9cbe19f7
+    name: functions
+    type: application
+    urls:
+    - functions-0.1.0.tgz
+    version: 0.1.0
+generated: "2024-03-20T15:25:52.05904463+07:00"
