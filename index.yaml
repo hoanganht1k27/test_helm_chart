@@ -3,7 +3,7 @@ entries:
   functions:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-03-20T15:25:52.072431998+07:00"
+    created: "2024-03-20T16:16:57.236473257+07:00"
     dependencies:
     - condition: global.grafana.enabled
       name: grafana
@@ -22,6 +22,6 @@ entries:
     name: functions
     type: application
     urls:
-    - functions-0.1.0.tgz
+    - https://hoanganht1k27.github.io/test_helm_chart/functions-0.1.0.tgz
     version: 0.1.0
-generated: "2024-03-20T15:25:52.05904463+07:00"
+generated: "2024-03-20T16:16:57.234303655+07:00"
