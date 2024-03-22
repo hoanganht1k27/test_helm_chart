@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nginx-deployment  # Replace with your desired deployment name
+spec:
+  replicas: 2  # Number of Nginx pod replicas (you can scale this)
+  selector:
+    matchLabels:
+      app: nginx
+  template:
+    metadata:
+      labels:
+        app: nginx
+    spec:
+      containers:
+      - name: nginx
+        image: nginx:latest  # You can specify a specific version here (e.g., nginx:1.23)
+        ports:
+        - containerPort: 80
