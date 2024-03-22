@@ -3,7 +3,7 @@ entries:
   functions:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-03-20T16:16:57.236473257+07:00"
+    created: "2024-03-22T10:44:25.84663201+07:00"
     dependencies:
     - condition: global.grafana.enabled
       name: grafana
@@ -18,10 +18,10 @@ entries:
       repository: ""
       version: 0.1.0
     description: A Helm chart for Kubernetes
-    digest: 1f6877ba4f7963f66834657ee94069771549e1bd6a57b2105861430e9cbe19f7
+    digest: c6ac793c7fa44fcdf6654485d52c956f45c60fa758b100e6a0b7aff5aefea84f
     name: functions
     type: application
     urls:
-    - https://hoanganht1k27.github.io/test_helm_chart/functions-0.1.0.tgz
+    - functions-0.1.0.tgz
     version: 0.1.0
-generated: "2024-03-20T16:16:57.234303655+07:00"
+generated: "2024-03-22T10:44:25.844598411+07:00"
